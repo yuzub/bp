@@ -1,0 +1,234 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.52;
+  color: #717f86;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 91px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #4B4B4C;
+}
+h2 {
+  font-size: 24px;
+  padding-bottom: 15px;
+}
+.btn {
+  padding: 10px 20px;
+}
+
+.navbar {
+  margin-bottom: 0px;
+  padding: 20px 15px;
+  border-radius: 0px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.navbar-default {
+  background-color: #fff;
+}
+.navbar-default .navbar-brand {
+  color: #5FCF80;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #717f86;
+  font-size: 14px;
+  font-weight: 700;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: #5FCF80;
+}
+.navbar-default .navbar-nav > li.btn-news a{
+	background-color: #5FCF80;
+	border-radius: 25px;
+	color: #ffffff;
+	border: 1px solid #5FCF80;
+}
+.navbar-default .navbar-nav > li.btn-news a:hover, .btn-trial a:focus{
+	border: 1px solid #5FCF80;
+	background-color: #fff;
+	color: #5FCF80;
+}
+
+.cbp-af-header-shrink {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  opacity: 0.9;
+}
+
+main {
+  /* background-color: #ddd; */
+}
+a {
+  color: #5fcf80;
+}
+a:hover, a:focus{
+  color: #ffffff;
+}
+.banner {
+  background: url(../img/banner.jpg) no-repeat center top;
+  background-size: cover;
+  background-position: center;
+  /* min-height: 580px; */
+  /* position: relative; */
+}
+.bg-color {
+  background-color: RGBA(12, 11, 11, 0.82);
+  /* min-height: 580px; */
+}
+.down-button {
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  text-align: center;
+}
+.down-button a i {
+  color: #5fcf80;
+}
+.down-button a i:hover, .down-button a i:focus{
+  color: #ffffff;
+}
+.intro-para {
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #fff;
+  margin-top: 50px;
+}
+.big-text{
+  font-size: 35px;
+}
+.small-text{
+  font-size: 16px;
+}
+/***********************************
+Course
+************************************/
+[class*=" imghvr-"] figcaption, [class^="imghvr-"] figcaption {
+  background-color: #5FCF80;
+}
+[class*=" imghvr-"], [class^="imghvr-"] {
+  background-color: #5FCF80;
+  color: #fff;
+}
+
+.img-prepod {
+  max-width: 50%;
+}
+section.contacts {
+  text-align: center;
+}
+.bottom-line {
+  width: 60px;
+  height: 2px;
+  background-color: rgb(99, 122, 145);
+}
+
+/***********************************
+Contact Us
+************************************/
+/* .contact form .form {
+  width: 100%;
+  height: auto;
+  padding: 15px 15px 12px;
+  font-size: 18px;
+  margin-bottom: 18px;
+  color: #7f7f7f;
+  letter-spacing: 0.5px;
+} */
+#contact .form-control {
+  background: #fafafa;
+  border: 1px solid rgba(119, 81, 81, 0.34);
+  width: 100%;
+margin-bottom: 15px;
+  border-radius: 0;
+
+}
+.textarea {
+  height: 228px;
+  max-width: 100%;
+  max-height: 229px;
+}
+.light {
+  font-weight: 100;
+}
+.white{
+  color: #fff !important;
+}
+
+.validation {
+  color: red;
+  display:none;
+  margin: 0 0 20px;
+  font-weight:400;
+  font-size:13px;
+}
+
+#sendmessage {
+  color: green;
+  border:1px solid green;
+  display:none;
+  text-align:center;
+  padding:15px;
+  font-weight:600;
+  margin-bottom:15px;
+}
+
+#errormessage {
+  color: red;
+  display:none;
+  border:1px solid red;
+  text-align:center;
+  padding:15px;
+  font-weight:600;
+  margin-bottom:15px;
+}
+
+#sendmessage.show, #errormessage.show, .show {
+display:block;
+}
+
+.light-form-button {
+  background: #5fcf80;
+  border: 1px solid rgba(119, 81, 81, 0.34);
+  width: 24%;
+  padding: 10px 10px;
+  margin-bottom: 15px;
+  color: #fff;
+  border: 1px solid rgba(119, 81, 81, 0.34);
+  width: 24%;
+  margin-bottom: 15px;
+}
+/***********************************
+Footer
+************************************/
+.footer {
+  padding: 60px 0 20px;
+  background: #111;
+  color: #ccc;
+}
+.footer .form-control {
+  border-radius: 30px;
+  border: none;
+  background: rgba(255,255,255,.1);
+  padding-left: 30px;
+  color: #e5e6e7;
+  margin-bottom: 0;
+  height: 48px;
+}
+.btn-submit {
+  padding: 14px 12px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  background-color: #5fcf80;
+  color: #fff;
+}
+.footer .social-links li a {
+  color: #fff;
+  font-size: 32px;
+  line-height: 50px;
+  border-radius: 50%;
+  text-align: center;
+}
