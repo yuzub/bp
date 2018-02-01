@@ -104,6 +104,13 @@ a:hover, a:focus{
   font-size: 16px;
 }
 /***********************************
+Carousel
+************************************/
+.carousel-caption h3, .carousel-caption  p {
+  color: #4B4B4C;
+}
+
+/***********************************
 Course
 ************************************/
 [class*=" imghvr-"] figcaption, [class^="imghvr-"] figcaption {
@@ -205,7 +212,7 @@ display:block;
 Footer
 ************************************/
 .footer {
-  padding: 60px 0 20px;
+  padding: 20px 0 20px;
   background: #111;
   color: #ccc;
 }
