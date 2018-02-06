@@ -1,0 +1,18 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-top: 111px;
+}
+
+.navbar {
+  margin-bottom: 0px;
+  padding: 30px 15px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.cbp-af-header-shrink {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  opacity: 0.9;
+}

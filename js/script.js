@@ -24,4 +24,8 @@ $(function() {
     $('#course-content-eng').toggle();
     event.preventDefault();
   });
+
+  // parallax scrolling with stellar.js
+  $(window).stellar();
+
 });
