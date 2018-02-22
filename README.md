@@ -1,2 +1,2 @@
 # bp
-balkonplus
+Site for the training center in Dnepr
