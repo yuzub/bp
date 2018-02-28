@@ -33,7 +33,7 @@ $(function () {
   })
 
   // smooth scrolling
-  $('nav a').bind('click', function () {
+  $('nav a[href^="#"]').bind('click', function () {
     $('html, body').stop().animate({
       scrollTop: $($(this).attr('href')).offset().top - 55
     }, 1500, 'easeInOutExpo');
