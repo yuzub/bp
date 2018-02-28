@@ -1,0 +1,16 @@
+.schedule {
+  width: 100%;
+  background-image: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-attachment: scroll;
+}
+.bg-color {
+  background-color: rgba(100, 200, 200, 0.3);
+}
+
+footer {
+  /* background-color: midnightblue; */
+  background-color: rgb(3,55,105);
+  color: rgb(255,255,255);
+}
