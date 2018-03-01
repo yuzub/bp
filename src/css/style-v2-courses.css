@@ -1,4 +1,4 @@
-.schedule {
+/* .schedule {
   width: 100%;
   background-image: url(../img/banner.jpg);
   background-repeat: no-repeat;
@@ -10,7 +10,38 @@
 }
 
 footer {
-  /* background-color: midnightblue; */
+  background-color: midnightblue;
   background-color: rgb(3,55,105);
   color: rgb(255,255,255);
+} */
+
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+.course-java {
+  background: url("../img/bg-java.jpg") no-repeat center center fixed;
+}
+
+#intro {
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.full-bg-image {
+  width: 90%;
+}
+
+.intro-header {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+#structure .fas {
+  color: #317eac;
 }

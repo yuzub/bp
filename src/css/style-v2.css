@@ -4,6 +4,10 @@ body {
   /* padding-top: 111px; */
 }
 
+h1, h2, h3, h4, h5 {
+  text-transform: uppercase;
+}
+
 .navbar {
   margin-bottom: 0px;
   padding: 15px 15px;
@@ -34,6 +38,10 @@ a:hover {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.carousel-caption h3 {
+  color: rgb(255, 255, 255);
 }
 
 .bottom-line {

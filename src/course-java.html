@@ -15,6 +15,7 @@
   <link href="./css/bootstrap-c.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/imagehover.min.css">
   <link rel="stylesheet" href="css/style-v2.css">
+  <link rel="stylesheet" href="css/style-v2-courses.css">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -43,13 +44,16 @@
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-left">
             <li>
-              <a href="index-v2.html#courses">Курсы</a>
+              <a href="#structure">Расписание</a>
             </li>
             <li>
-              <a href="index-v2.html#teachers">Преподаватели</a>
+              <a href="#program">Программа</a>
             </li>
             <li>
-              <a href="#contacts">Контакты</a>
+              <a href="#teachers">Преподаватели</a>
+            </li>
+            <li>
+              <a href="#contacts">Регистрация на курс</a>
             </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
@@ -59,65 +63,157 @@
                 <span>+38 (056) 798 24 46</span>
               </a>
             </li>
-            <li class="btn-news">
-              <a href="#" data-target="#registration" data-toggle="modal">Зарегистрироваться</a>
-            </li>
           </ul>
         </div>
         <!-- /.navbar-collapse -->
       </div>
       <!-- /.container-fluid -->
     </nav>
+    <div id="intro" class="course-java ">
+      <div class="full-bg-image">
+        <h1 class="intro-header">Курс программирование на Java</h1>
+        <h3 class="intro-header">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+        <button class="btn btn-info">
+          <a href="#contacts">Регистрация на курс</a>
+        </button>
+      </div>
+    </div>
   </header>
 
   <main>
 
-  
+    <section id="structure" class="course-structure">
+      <div class="container">
+        <div class="row">
+          <div class="header-section text-center">
+            <h2>Расписание</h2>
+            <hr class="bottom-line">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="text-center">
+              <i class="fas fa-calendar-alt fa-3x"></i>
+              <h4>Длительность</h4>
+              <p>32 занятия</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="text-center">
+              <i class="fas fa-recycle fa-3x"></i>
+              <h4>Интенсивность</h4>
+              <p>2 раза / нед.</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="text-center">
+              <i class="fas fa-clock fa-3x"></i>
+              <h4>Начало занятий</h4>
+              <p>16.00</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="text-center">
+              <i class="fas fa-credit-card fa-3x"></i>
+              <h4>Стоимость</h4>
+              <p>100 грн.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section id="program" class="course-program">
+      <div class="container">
+        <div class="row">
+          <div class="header-section text-center">
+            <h2>Программа курса</h2>
+            <hr class="bottom-line">
+          </div>
+        </div>
+        <div class="row">
+          <ol>
+            <li>Intro</li>
+            <li>Intro</li>
+            <li>Intro</li>
+            <li>Intro</li>
+            <li>Intro</li>
+            <li>Intro</li>
+            <li>Intro</li>
+            <li>Intro</li>
+            <li>Intro</li>
+            <li>Intro</li>
+          </ol>
+        </div>
+      </div>
+    </section>
 
+    <section id="teachers" class="course-teachers">
+      <div class="container">
+        <div class="row">
+          <div class="header-section text-center">
+            <h2>Преподаватели</h2>
+            <hr class="bottom-line">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 col-xs-6">
+            <div class="staff-profile-image-wrapper text-center">
+              <img src="./img/prepod3.jpg" alt="" class="img-responsive img-thumbnail">
+            </div>
+          </div>
+          <div class="col-sm-8 col-xs-6">
+            <p>
+              <strong>Сеферовский Юрий Викторович</strong>
+            </p>
+            <p>Преподаватель</p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita odit at, voluptates voluptas labore doloremque eum velit.
+              Eligendi laudantium porro, blanditiis ex quidem rerum asperiores accusamus magni, eum aut fuga.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </section>
 
     <section id="contacts" class="contacts">
 
-      <div class="container-fluid">
+      <div class="container">
         <div class="row">
           <div class="header-section text-center">
-            <h2>Контакты</h2>
-            <h3>Днепр, пл. Д.Бедного, 1</h3>
-            <p>
-              <i class="fas fa-phone" data-fa-transform="flip-h"></i> +38-056-798-24-46</p>
-            <p>
-              <i class="fas fa-envelope"></i> l100@l100.dp.ua</p>
+            <h2>Регистрация на курс</h2>
             <hr class="bottom-line">
           </div>
-          <div id="sendmessage">Your message has been sent. Thank you!</div>
-          <div id="errormessage"></div>
+
           <form action="" method="post" role="form" class="contactForm">
-            <div class="col-md-6 col-sm-6 col-xs-12 left">
+            <div class="col-sm-3 col-xs-6">
               <div class="form-group">
-                <input type="text" name="name" class="form-control form" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars"/>
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email"/>
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject"
+                <input type="text" name="name" class="form-control form" id="name" placeholder="Ваше имя" data-rule="minlen:4" data-msg="Please enter at least 4 chars"
                 />
                 <div class="validation"></div>
               </div>
             </div>
 
-            <div class="col-md-6 col-sm-6 col-xs-12 right">
+            <div class="col-sm-3 col-xs-6">
               <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <input type="email" class="form-control" name="email" id="email" placeholder="email@gmail.com" data-rule="email" data-msg="Please enter a valid email"
+                />
                 <div class="validation"></div>
               </div>
             </div>
 
-            <div class="col-xs-12">
+            <div class="col-sm-3 col-xs-6">
+              <div class="form-group">
+                <input type="text" class="form-control" name="phone" id="phone" placeholder="+38 (050) 123-12-12" data-rule="minlen:19" data-msg="Please enter your phone number in format +38 (050) 123-12-12"
+                />
+                <div class="validation"></div>
+              </div>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
               <!-- Button -->
-              <button type="submit" id="submit" name="submit" class="form contact-form-button light-form-button oswald light">SEND EMAIL</button>
+              <button type="submit" id="submit" name="submit" class="btn btn-primary btn-block">SEND EMAIL</button>
             </div>
           </form>
 
@@ -132,32 +228,49 @@
       <div class="row">
 
         <div class="col-sm-4">
-          <h4><strong>УВК Лицей № 100</strong></h4>
+          <h4>
+            <strong>УВК Лицей № 100</strong>
+          </h4>
           <hr class="bottom-line purple-line">
           <p></p>
         </div>
         <div class="col-sm-4">
-          <h4><strong>Курсы</strong></h4>
+          <h4>
+            <strong>Курсы</strong>
+          </h4>
           <hr class="bottom-line purple-line">
-          <p><a href="#">English</a></p>
-          <p><a href="#">Украинский язык. Подготовка к ВНО</a></p>
-          <p><a href="#">Программирование</a></p>
-          <p><a href="#">Язык Java</a></p>
+          <p>
+            <a href="#">English</a>
+          </p>
+          <p>
+            <a href="#">Украинский язык. Подготовка к ВНО</a>
+          </p>
+          <p>
+            <a href="#">Программирование</a>
+          </p>
+          <p>
+            <a href="#">Язык Java</a>
+          </p>
         </div>
         <div class="col-sm-4">
-          <h4><strong>Контакты</strong></h4>
+          <h4>
+            <strong>Контакты</strong>
+          </h4>
           <hr class="bottom-line purple-line">
-          <p><i class="fa fa-home mr-3"></i> Днепр, пл. Д. Бедного, 1</p>
-          <p><i class="fa fa-envelope mr-3"></i> info@example.com</p>
-          <p><i class="fa fa-phone mr-3"></i> + 38 056 798 24 46</p>
-          <p><i class="fa fa-phone mr-3"></i> + 38 063 798 24 46</p>
+          <p>
+            <i class="fas fa-home mr-3"></i> Днепр, пл. Д. Бедного, 1</p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+          <p>
+            <i class="fas fa-phone mr-3"></i> + 38 056 798 24 46</p>
+          <p>
+            <i class="fas fa-phone mr-3"></i> + 38 063 798 24 46</p>
         </div>
       </div>
       <div class="footer-copyright text-center">
         <p class="text-muted">
           © 2018 УВК Лицей 100. Днепр, пл. Д. Бедного, 1.
-          <br>
-          Developed by YuZub 2018
+          <br> Developed by YuZub 2018
         </p>
       </div>
 
