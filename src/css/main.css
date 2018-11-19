@@ -1,0 +1,259 @@
+body, html {
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  /* padding-top: 111px; */
+}
+
+h1, h2, h3, h4, h5 {
+  text-transform: uppercase;
+  color: rgb(3, 55, 105);
+  font-weight: 700;
+}
+
+.navbar {
+  margin-bottom: 0px;
+  padding: 20px 5px;
+  background-color: rgba(3, 55, 105, .4);
+  background-image: none;
+  border-bottom: 0px;
+  box-shadow: 0px 3px 15px #777;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.navbar-brand {
+  font-family: 'Lobster', cursive;
+  font-size: 2em;
+  text-transform: none;
+}
+
+.brand {
+  font-family: 'Lobster', cursive;
+  text-transform: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.dropdown-toggle {
+  margin: 0 5px 5px 5px;
+}
+
+.dropdown-menu>li {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.cbp-af-header-shrink {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  /* opacity: 1; */
+  background-image: -webkit-linear-gradient(#04519b, #044687 60%, #033769);
+  background-image: -o-linear-gradient(#04519b, #044687 60%, #033769);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#04519b), color-stop(60%, #044687), to(#033769));
+  background-image: linear-gradient(#04519b, #044687 60%, #033769);
+  box-shadow: none;
+}
+
+.fill-screen {
+  /* height: 100%; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-us, .courses {
+  margin-top: 4em;
+}
+
+.header-section {
+  margin: 30px;
+}
+
+.fixed-attachment {
+  background-attachment: fixed;
+}
+
+@media(max-width: 768px) {
+  .fixed-attachment {
+    background-attachment: scroll;
+  }
+}
+
+#intro .fill-screen {
+  position: relative;
+}
+
+#intro .fill-screen:before {
+  content: "";
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+}
+
+.intro {
+  display: none;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+
+.intro h1 {
+  color: white;
+  font-size: 3em;
+}
+
+.intro p {
+  color: white;
+  font-size: 1.5em;
+}
+
+.down-button {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.down-button i {
+  color: white;
+}
+
+.icon-orange {
+  color: #d15000;
+}
+
+.icon-blue {
+  color: #1e9ce5;
+}
+
+.why-element {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.course-info {
+  margin-top: 50px;
+}
+
+.course-info-element {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.course-program {
+  background-image: url(../img/BG-Blue.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+.course-program h3, .course-program h4 {
+  color: #fff;
+  margin-top: 30px;
+  text-transform: none;
+}
+
+.course-program .module-wrapper {
+  padding: 20px;
+  background-color: rgba(0,0,0,0.2);
+  height: 100%;
+}
+
+.row-flex {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.course-program [class*="col-"] {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.course-result ul.list-check {
+  list-style-image: url(../img/check-16.png);
+  margin-bottom: 30px;
+}
+
+.bottom-line {
+  /* width: 60px; */
+  border-width: 0px;
+  width: 60px;
+  height: 2px;
+  background-color: rgb(3, 55, 105);
+}
+
+.purple-line {
+  height: 1px;
+  margin-left: 0px;
+  background-color: rgb(219,60,49);
+}
+
+form#contact .form-control-feedback {
+  top: 22px;
+}
+
+footer {
+  background-color: rgb(3, 55, 105);
+  color: rgb(255, 255, 255);
+}
+
+footer h4 {
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+footer a, footer a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.footer-copyright {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: .8em;
+}
+
+.floating{
+  animation-name: floating;
+  -webkit-animation-name: floating;
+
+  animation-duration: 1.5s;   
+  -webkit-animation-duration: 1.5s;
+
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes floating {
+  0% {
+      transform: translateY(0%);  
+  }
+  50% {
+      transform: translateY(8%);  
+  }   
+  100% {
+      transform: translateY(0%);
+  }           
+}
+
+@-webkit-keyframes floating {
+  0% {
+      -webkit-transform: translateY(0%);  
+  }
+  50% {
+      -webkit-transform: translateY(8%);  
+  }   
+  100% {
+      -webkit-transform: translateY(0%);
+  }           
+}

@@ -17,7 +17,6 @@ $(function () {
   $(function() {
     $(window).on('load resize', function() {
       $('.fill-screen').css('height', window.innerHeight);
-      $('.intro').css('display', 'block');
     });
   });
 
@@ -86,7 +85,7 @@ $(function () {
     $formInputs.each(function() {
       messages.push( $(this).val() );
     });
-    // console.log(messages);
+    console.log(messages);
     smtpJS(messages, $curForm);
   };
 
@@ -94,15 +93,15 @@ $(function () {
     try {
       Email.send(
         `${fr}${dogGm}`,
-        `${t1}${dogGm}`,
-        // `${t1}${dogGm},${t2}${dogGm}`,
+        // `${t1}${dogGm}`,
+        `${t1}${dogGm},${t2}${dogGm}`,
         `${messages[0]} ${messages[1]} ${messages[3]} course`,
+        // `${messages[0]} ${messages[1]} ${messages[2]}. ${messages[3]}. ${messages[4]}`,
         `${messages.join()}`,
         { 
           token, 
           callback: function done(msg) {
             alert(`Спасибо за сообщение. Мы свяжемся с Вами в ближайшее время.`);
-            gtag_report_conversion();
           }
         }
       );
