@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5 {
 
 .navbar-brand {
   font-family: 'Lobster', cursive;
-  font-size: 2em;
+  font-size: 1.8em;
   text-transform: none;
 }
 
@@ -33,9 +33,14 @@ h1, h2, h3, h4, h5 {
   text-transform: none;
 }
 
-a:hover {
+/* a:hover {
   text-decoration: none;
-}
+} */
+
+/* a[href^="tel:"] {
+  color: orange;
+  text-decoration: none;
+} */
 
 .dropdown-toggle {
   margin: 0 5px 5px 5px;
@@ -76,7 +81,12 @@ a:hover {
   background-attachment: fixed;
 }
 
-@media(max-width: 768px) {
+@media(max-width: 576px) {
+  .intro span {
+    font-size: 1.8rem;
+  }
+
+}@media(max-width: 767px) {
   .fixed-attachment {
     background-attachment: scroll;
   }
@@ -96,7 +106,7 @@ a:hover {
 
 .intro {
   display: none;
-  padding: 20px;
+  padding: 2px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);

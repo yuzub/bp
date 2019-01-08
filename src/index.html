@@ -75,15 +75,15 @@
         <div class="collapse navbar-collapse" id="bs-navbar">
           <ul class="nav navbar-nav navbar-left">
             <li>
-              <a href="#about-us">О нас</a>
+              <a href="#about-us">О курсах<span class="hidden-sm hidden-md"> BrainLink</span></a>
             </li>
             <li>
-              <a href="#java-course">Java</a>
+              <a href="#java-course"><span class="hidden-sm">Обучение </span>Java</a>
             </li>
             <li>
-              <a href="#fe-course">Front End</a>
+              <a href="#fe-course"><span class="hidden-sm">Обучение </span>Front-End</a>
             </li>
-            <li class="hidden-sm">
+            <li class="hidden-sm hidden-md">
               <a href="#contacts">Контакты</a>
             </li>
           </ul>
@@ -93,14 +93,15 @@
               <a class="btn btn-warning" data-toggle="modal" data-target="#registrationModal">Зарегистрироваться</a>
             </li>
             <li class="dropdown">
-              <a data-target="#" class="btn btn-info dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              <a data-target="#" class="btn dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                 aria-expanded="false">
                 <i class="fas fa-phone"></i> <span>(056) 798-24-46</span> <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
-                <li><a><i class="fas fa-phone"></i> (063) 332-45-22 Life</a></li>
-                <li><a><i class="fas fa-phone"></i> (068) 784-41-18 Киевстар</a></li>
-                <li><a><i class="fas fa-phone"></i> (095) 500-21-74 Vodafone</a></li>
+                <li><a href="tel:+380637982446"><i class="fas fa-phone"></i> (063) 798-24-46 Life</a></li>
+                <li><a href="tel:+380633324522"><i class="fas fa-phone"></i> (063) 332-45-22 Life</a></li>
+                <li><a href="tel:+380687844118"><i class="fas fa-phone"></i> (068) 784-41-18 Киевстар</a></li>
+                <li><a href="tel:+380955002174"><i class="fas fa-phone"></i> (095) 500-21-74 Vodafone</a></li>
               </ul>
             </li>
           </ul>
@@ -182,10 +183,15 @@
       <div class="row">
         <div class="fill-screen" style="background-image: url(../img/4.jpg)" data-stellar-background-ratio="0.2">
           <div class="intro">
-            <h1>IT-школа для подростков</h1>
-            <h1>BrainLink</h1>
-            <p>Образовательный проект для подростков
-              <br>по направлениям IT</p>
+            <h1>
+              Курсы по <span>программированию</span><br>
+              <span>для школьников</span>
+            </h1>
+            <h1 class="brand">BrainLink</h1>
+            <p>
+              Обучение для подростков<br>
+              по направлениям IT
+            </p>
           </div>
           <div class="down-button floating">
             <a href="#about-us" class="btn">
@@ -201,15 +207,13 @@
         <h2>Что такое
           <span class="brand">BrainLink</span>?</h2>
         <p class="lead">
-          Образовательный проект — обучение молодого поколения одним из самых востребованных специальностей
-          современности. Это уникальная
-          возможность для подростков получить первую IT-профессию еще в школе.
+          Курсы обучения программированию. Это уникальная возможность для подростков получить первую IT-профессию еще в
+          школе.
         </p>
         <hr class="bottom-line">
       </div>
       <div class="content-section">
-        <h2>Цель проекта и почему стоит учиться у нас</h2>
-        <p class="lead">Мы предлагаем программы обучения подростков в сфере IT.</p>
+        <h2>Цель курсов и почему стоит учиться у нас</h2>
         <div class="row">
           <div class="why-element col-md-3 col-sm-6">
             <div>
@@ -223,8 +227,7 @@
               <i class="fas fa-map-marker-alt fa-3x icon-orange"></i>
             </div>
             <h4>Удобная локация</h4>
-            <p>Мы находимся в центре города - поэтому Вам будет удобно добраться к месту занятий независимо от того где
-              Вы проживаете.</p>
+            <p>Вам будет удобно добраться к месту занятий, расположенному в центральной части города в <a href="#location">Лицее&nbsp;№100</a>.</p>
           </div>
           <div class="why-element col-md-3 col-sm-6">
             <div>
@@ -246,7 +249,7 @@
       </div>
     </section>
 
-    <div class="container-fluid">
+    <div class="container-fluid hidden-xs hidden-sm">
       <div class="row">
         <div class="fill-screen fixed-attachment" style="background-image: url(../img/3.jpg)">
         </div>
@@ -255,7 +258,7 @@
 
     <section id="java-course" class="courses">
       <div class="header-section container-fluid text-center">
-        <h2>Java курс</h2>
+        <h3>Обучение программированию на Java</h3>
         <p class="text-justify">
           Java представляет собой язык программирования и платформу вычислений, которая была впервые выпущена Sun
           Microsystems в 1995
@@ -277,8 +280,8 @@
               <i class="fas fa-space-shuttle fa-3x icon-blue"></i>
             </p>
             <h4>Старт курса</h4>
-            <p>2 декабря</p>
-            <p>2018 г.</p>
+            <p>27 января</p>
+            <p>2019 г.</p>
           </div>
           <div class="course-info-element col-md-3 col-xs-6">
             <p>
@@ -287,14 +290,15 @@
             <h4>Расписание</h4>
             <p>По воскресеньям</p>
             <p>10.00 - 13.00</p>
+            <p><a href="#location">в Лицее №100</a></p>
           </div>
           <div class="course-info-element col-md-3 col-xs-6">
             <p>
               <i class="far fa-clock fa-3x icon-blue"></i>
             </p>
             <h4>Длительность</h4>
-            <p>6 месяцев</p>
-            <p>96 учебных часов</p>
+            <p>4 месяца</p>
+            <p>64 учебных часа</p>
           </div>
           <div class="course-info-element col-md-3 col-xs-6">
             <p>
@@ -308,78 +312,8 @@
             </p>
           </div>
         </div>
-      </div>
-
-      <div class="course-program">
-        <div class="container-fluid">
-          <h3 class="text-center">Программа обучения Java (12-17 лет)</h3>
-          <div class="row row-flex">
-            <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.5s">
-              <div class="module-wrapper">
-                <div>Модуль 1</div>
-                <h4>Основы программирования на языке Java</h4>
-                <div>
-                  Базовые конструкции.
-                  <br> Условные конструкции.
-                  <br> Итеративные конструкции while, do-while, for.
-                  <br> Функции.
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.8s">
-              <div class="module-wrapper">
-                <div>Модуль 2</div>
-                <h4>Алгоритмы и структуры данных на языке Java</h4>
-                <div>
-                  Массив.
-                  <br> Список.
-                  <br> Дерево.
-                  <br> Рекурсия.
-                  <br> Алгоритмы сортировки.
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="1.1s">
-              <div class="module-wrapper">
-                <div>Модуль 3</div>
-                <h4>Введение в объектно-ориентированное программирование</h4>
-                <div>
-                  Понятие класса и объекта.
-                  <br> Работа с экземплярами класса.
-                  <br> Основы тестирования и отладки.
-                  <br> Наследование и инкапсуляция.
-                  <br> Полиморфизм.
-                  <br> Ввод-вывод в Java. Исключения.
-                  <br> Внутренние и анонимные классы.
-                  <br> Двумерная графика.
-                  <br> Разработка игровых приложений.
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="1.4s">
-              <div class="module-wrapper">
-                <div>Модуль 4</div>
-                <h4>Основы разработки веб серверных приложений на Java</h4>
-                <div>
-                  IP-сети.
-                  <br> Web сервер. HTTP запросы и ответы.
-                  <br> Клиент-серверная архитектура мобильных приложений.
-                  <br> Облачные платформы. REST взаимодействие.
-                  <br> Серверные СУБД.
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="1.7s">
-              <div class="module-wrapper">
-                <div>Модуль 5</div>
-                <h4>Защита проектов</h4>
-                <div>
-                  Выбор темы.
-                  <br> Консультации.
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="row">
+          <a class="btn btn-warning" data-toggle="modal" data-target="#registrationModal">Зарегистрироваться</a>
         </div>
       </div>
 
@@ -387,7 +321,7 @@
         <div class="container-fluid bg-warning">
           <h3 class="text-center">Каким будет результат курса?</h3>
           <div class="row row-flex">
-            <div class="col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="1s">
+            <div class="col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="0.4s">
               <div class="module-wrapper">
                 <h4>Выпускник курса будет знать:</h4>
                 <div>
@@ -402,7 +336,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="1s">
+            <div class="col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="0.8s">
               <div class="module-wrapper">
                 <h4>Выпускник курса будет уметь:</h4>
                 <div>
@@ -422,9 +356,83 @@
           </div>
         </div>
       </div>
+
+      <div class="course-program">
+        <div class="container-fluid">
+          <h3 class="text-center">План обучения программированию на Java (12-17 лет)</h3>
+          <div class="row row-flex">
+            <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.3s">
+              <div class="module-wrapper">
+                <div>Модуль 1</div>
+                <h4>Основы программирования на языке Java</h4>
+                <div>
+                  Базовые конструкции.
+                  <br> Условные конструкции.
+                  <br> Итеративные конструкции while, do-while, for.
+                  <br> Функции.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.4s">
+              <div class="module-wrapper">
+                <div>Модуль 2</div>
+                <h4>Алгоритмы и структуры данных на языке Java</h4>
+                <div>
+                  Массив.
+                  <br> Список.
+                  <br> Дерево.
+                  <br> Рекурсия.
+                  <br> Алгоритмы сортировки.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.5s">
+              <div class="module-wrapper">
+                <div>Модуль 3</div>
+                <h4>Введение в объектно-ориентированное программирование</h4>
+                <div>
+                  Понятие класса и объекта.
+                  <br> Работа с экземплярами класса.
+                  <br> Основы тестирования и отладки.
+                  <br> Наследование и инкапсуляция.
+                  <br> Полиморфизм.
+                  <br> Ввод-вывод в Java. Исключения.
+                  <br> Внутренние и анонимные классы.
+                  <br> Двумерная графика.
+                  <br> Разработка игровых приложений.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.6s">
+              <div class="module-wrapper">
+                <div>Модуль 4</div>
+                <h4>Основы разработки веб серверных приложений на Java</h4>
+                <div>
+                  IP-сети.
+                  <br> Web сервер. HTTP запросы и ответы.
+                  <br> Клиент-серверная архитектура мобильных приложений.
+                  <br> Облачные платформы. REST взаимодействие.
+                  <br> Серверные СУБД.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.7s">
+              <div class="module-wrapper">
+                <div>Модуль 5</div>
+                <h4>Защита проектов</h4>
+                <div>
+                  Выбор темы.
+                  <br> Консультации.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </section>
 
-    <div class="container-fluid">
+    <div class="container-fluid hidden-xs hidden-sm">
       <div class="row">
         <div class="fill-screen fixed-attachment" style="background-image: url(../img/5.jpg)">
         </div>
@@ -434,7 +442,7 @@
     <section id="fe-course" class="courses">
 
       <div class="header-section container-fluid text-left">
-        <h2 class="text-center">Front-End курс</h2>
+        <h3 class="text-center">Обучение Web-программированию (Front-End)</h3>
         <div class="text-justify">
           <p>
             Front End — это создание клиентской части сайта. Front End разработчик создает пользовательский интерфейс и
@@ -460,19 +468,6 @@
             мигания
             экрана.
           </p>
-          <p><strong>Для любопытных</strong> - несколько ссылок:
-            <a href="https://petrimazepa.com/opublikovan_reyting_yazykov_programmirovaniya_swift_vyletel_iz_top_10"
-              target="_blank" rel="noopener">
-              Рейтинг языков программирования 2018
-            </a>, на английском -
-            <a href="https://redmonk.com/sogrady/2018/08/10/language-rankings-6-18/" target="_blank" rel="noopener">
-              The RedMonk Programming Language Rankings: June 2018
-            </a>,
-            <a href="https://hackernoon.com/top-3-most-popular-programming-languages-in-2018-and-their-annual-salaries-51b4a7354e06"
-              target="_blank" rel="noopener">
-              Top 3 most popular programming languages in 2018
-            </a>.
-          </p>
         </div>
         <hr class="bottom-line">
       </div>
@@ -484,8 +479,8 @@
               <i class="fas fa-space-shuttle fa-3x icon-blue"></i>
             </p>
             <h4>Старт курса</h4>
-            <p>1 декабря</p>
-            <p>2018 г.</p>
+            <p>26 января</p>
+            <p>2019 г.</p>
           </div>
           <div class="course-info-element col-md-3 col-xs-6">
             <p>
@@ -500,8 +495,8 @@
               <i class="far fa-clock fa-3x icon-blue"></i>
             </p>
             <h4>Длительность</h4>
-            <p>6 месяцев</p>
-            <p>96 учебных часов</p>
+            <p>4 месяца</p>
+            <p>64 учебных часа</p>
           </div>
           <div class="course-info-element col-md-3 col-xs-6">
             <p>
@@ -515,108 +510,8 @@
             </p>
           </div>
         </div>
-      </div>
-
-      <div class="course-program">
-        <div class="container-fluid">
-          <h3 class="text-center">Программа обучения Front-End (12-17 лет)</h3>
-          <div class="row row-flex">
-            <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.5s">
-              <div class="module-wrapper">
-                <div>Модуль 1</div>
-                <h4>HTML и CSS</h4>
-                <div>
-                  Введение в WEB.
-                  <br> Этапы создания сайта.
-                  <br> Введение в HTML.
-                  <br> Теги, атрибуты.
-                  <br> Ссылки, навигация.
-                  <br> Списки, таблицы.
-                  <br> Медиаконтент. Формы.
-                  <br> Каскадные таблицы стилей.
-                  <br> Идентификаторы, классы, селекторы.
-                  <br> Специфичность, наследование.
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.8s">
-              <div class="module-wrapper">
-                <div>Модуль 2</div>
-                <h4>JavaScript</h4>
-                <div>
-                  Основы программирования.
-                  <br> Введение.
-                  <br> Переменные.
-                  <br> Типы данных.
-                  <br> Операторы.
-                  <br> Циклы.
-                  <br> Функции.
-                  <br> Массивы.
-                  <br> Объекты.
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="1.1s">
-              <div class="module-wrapper">
-                <div>Модуль 3</div>
-                <h4>jQuery</h4>
-                <div>
-                  Знакомство с библиотекой jQuery.
-                  <br> Селекторы.
-                  <br> Атрибуты.
-                  <br> Функции.
-                  <br> События.
-                  <br> Эффекты.
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="1.4s">
-              <div class="module-wrapper">
-                <div>Модуль 4</div>
-                <h4>JavaScript</h4>
-                <div>
-                  Конструкторы и прототипы.
-                  <br> Работа с окнами браузера.
-                  <br> Работа с документами.
-                  <br> JavaScript и CSS.
-                  <br> События. Обработка событий.
-                  <br> Формы.
-                  <br> Cookies и механизмы сохранения данных.
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="1.7s">
-              <div class="module-wrapper">
-                <div>Модуль 5</div>
-                <h4>CSS, Bootstrap</h4>
-                <div>
-                  Градиенты.
-                  <br> Псевдоклассы, псевдоэлементы.
-                  <br> Трансформации.
-                  <br> Переходы. Анимации.
-                  <br> Flex.
-                  <br> Введение в Bootstrap.
-                  <br> Сетка.
-                  <br> Компоненты.
-                  <br> Утилиты.
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="2s">
-              <div class="module-wrapper">
-                <div>Модуль 6</div>
-                <h4>CMS, домены, хостинги</h4>
-                <div>
-                  Системы управления контентом.
-                  <br> Обзор существующих CMS.
-                  <br> CMS-Wordpress.
-                  <br> Выбор домена и хостинга.
-                  <br> Загрузка сайта на сервер.
-                  <br> Работа с панелью управления хостингом и FTP.
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="row">
+          <a class="btn btn-warning" data-toggle="modal" data-target="#registrationModal">Зарегистрироваться</a>
         </div>
       </div>
 
@@ -624,7 +519,7 @@
         <div class="container-fluid bg-warning">
           <h3 class="text-center">Каким будет результат курса?</h3>
           <div class="row row-flex">
-            <div class="col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="1s">
+            <div class="col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="0.4s">
               <div class="module-wrapper">
                 <h4>Выпускник курса будет знать:</h4>
                 <div>
@@ -641,7 +536,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="1s">
+            <div class="col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="0.8s">
               <div class="module-wrapper">
                 <h4>Выпускник курса будет уметь:</h4>
                 <div>
@@ -667,6 +562,108 @@
         </div>
       </div>
 
+      <div class="course-program">
+        <div class="container-fluid">
+          <h3 class="text-center">Программа обучения Web-программированию (12-17 лет)</h3>
+          <div class="row row-flex">
+            <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.3s">
+              <div class="module-wrapper">
+                <div>Модуль 1</div>
+                <h4>HTML и CSS</h4>
+                <div>
+                  Введение в WEB.
+                  <br> Этапы создания сайта.
+                  <br> Введение в HTML.
+                  <br> Теги, атрибуты.
+                  <br> Ссылки, навигация.
+                  <br> Списки, таблицы.
+                  <br> Медиаконтент. Формы.
+                  <br> Каскадные таблицы стилей.
+                  <br> Идентификаторы, классы, селекторы.
+                  <br> Специфичность, наследование.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.4s">
+              <div class="module-wrapper">
+                <div>Модуль 2</div>
+                <h4>JavaScript</h4>
+                <div>
+                  Основы программирования.
+                  <br> Введение.
+                  <br> Переменные.
+                  <br> Типы данных.
+                  <br> Операторы.
+                  <br> Циклы.
+                  <br> Функции.
+                  <br> Массивы.
+                  <br> Объекты.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.5s">
+              <div class="module-wrapper">
+                <div>Модуль 3</div>
+                <h4>jQuery</h4>
+                <div>
+                  Знакомство с библиотекой jQuery.
+                  <br> Селекторы.
+                  <br> Атрибуты.
+                  <br> Функции.
+                  <br> События.
+                  <br> Эффекты.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.6s">
+              <div class="module-wrapper">
+                <div>Модуль 4</div>
+                <h4>JavaScript</h4>
+                <div>
+                  Конструкторы и прототипы.
+                  <br> Работа с окнами браузера.
+                  <br> Работа с документами.
+                  <br> JavaScript и CSS.
+                  <br> События. Обработка событий.
+                  <br> Формы.
+                  <br> Cookies и механизмы сохранения данных.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.7s">
+              <div class="module-wrapper">
+                <div>Модуль 5</div>
+                <h4>CSS, Bootstrap</h4>
+                <div>
+                  Градиенты.
+                  <br> Псевдоклассы, псевдоэлементы.
+                  <br> Трансформации.
+                  <br> Переходы. Анимации.
+                  <br> Flex.
+                  <br> Введение в Bootstrap.
+                  <br> Сетка.
+                  <br> Компоненты.
+                  <br> Утилиты.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.8s">
+              <div class="module-wrapper">
+                <div>Модуль 6</div>
+                <h4>CMS, домены, хостинги</h4>
+                <div>
+                  Системы управления контентом.
+                  <br> Обзор существующих CMS.
+                  <br> CMS-Wordpress.
+                  <br> Выбор домена и хостинга.
+                  <br> Загрузка сайта на сервер.
+                  <br> Работа с панелью управления хостингом и FTP.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="contacts" class="container-fluid contacts">
@@ -674,31 +671,45 @@
       <div class="header-section text-center">
         <h2>Контакты</h2>
         <p><strong>УВК - Лицей №100</strong></p>
-        <p>г. Днепр, пл. Успенская, 1</p>
+        <div class="row">
+          <div class="col-xs-12 col-sm-6">
+            <ul class="list-unstyled text-center">
+              <li>
+                <i class="fas fa-home"></i> г. Днепр, пл. Успенская, 1</li>
+              <li>
+                <i class="fas fa-envelope"></i> info@brainlink.dp.ua</li>
+              <li>
+                <i class="fas fa-phone"></i> <a href="tel:+380567982446">+ 38 056 798 24 46</a></li>
+            </ul>              
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <ul class="list-unstyled text-center">
+              <li>
+                <i class="fas fa-phone"></i> <a href="tel:+380637982446">+ 38 063 798 24 46 Life</a></li>
+              <li>
+                <i class="fas fa-phone"></i> <a href="tel:+380633324522">+ 38 063 332 45 22 Life</a></li>
+              <li>
+                <i class="fas fa-phone"></i> <a href="tel:+380955002174">+ 38 095 500 21 74 Vodafone</a></li>
+              <li>
+                <i class="fas fa-phone"></i> <a href="tel:+380687844118">+ 38 068 784 41 18 Киевстар</a></li>
+            </ul>              
+          </div>
+        </div>
         <hr class="bottom-line">
       </div>
 
       <div class="row">
-        <div class="col-sm-6 wow fadeIn" data-wow-delay="1s">
+        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
 
           <form id="contact">
 
             <div class="form-group has-feedback">
               <i class="fa fa-user prefix grey-text"></i>
-              <input type="text" id="form-name" name="fname" class="form-control" placeholder="Имя Фамилия" pattern="[А-Я][а-я]+ [А-Я][а-я]+"
+              <input type="text" id="form-name" name="fname" class="form-control" placeholder="Имя" pattern="[А-Я][а-я]+"
                 required>
               <i class="fas form-control-feedback"></i>
-              <p class="help-block hidden">Пожалуйста укажите Ваши имя и фамилию.</p>
-              <label for="form-name">Имя и фамилия*</label>
-            </div>
-
-            <div class="form-group has-feedback">
-              <i class="fa fa-phone prefix grey-text"></i>
-              <input type="tel" id="form-tel" name="ftel" class="form-control" placeholder="(063)111-2277" pattern="\(0[0-9]{2}\)[0-9]{3}-[0-9]{4}"
-                required>
-              <i class="fas form-control-feedback"></i>
-              <p class="help-block hidden">Пожалуйста укажите номер телефона в формате (0xx)xxx-xxxx.</p>
-              <label for="form-tel">Телефон*</label>
+              <p class="help-block hidden">Пожалуйста укажите Ваше имя.</p>
+              <label for="form-name">Имя*</label>
             </div>
 
             <div class="form-group has-feedback">
@@ -711,18 +722,9 @@
             </div>
 
             <div class="form-group">
-              <i class="fa fa-tag prefix grey-text"></i>
-              <select id="form-course" name="fcourse" class="form-control">
-                <option>Java</option>
-                <option>Front-End</option>
-              </select>
-              <label for="form-course">Курс*</label>
-            </div>
-
-            <div class="form-group">
               <i class="fa fa-pencil prefix grey-text"></i>
-              <textarea type="text" id="form-comments" name="fcomments" class="form-control" rows="2" placeholder="Ваши вопросы..."></textarea>
-              <label for="form-comments">Комментарий</label>
+              <textarea type="text" id="form-comments" name="fcomments" class="form-control" rows="2" placeholder="Ваше сообщение..."></textarea>
+              <label for="form-comments">Сообщение</label>
             </div>
 
             <div class="text-center" style="margin-bottom: 5px">
@@ -735,35 +737,11 @@
           </form>
 
         </div>
-        <div class="col-sm-6 wow fadeIn" id="location" data-wow-delay="1s">
-          <div class="row text-center">
-
-            <div class="col-md-4">
-              <p>
-                <i class="fas fa-map-marked-alt"></i> г. Днепр
-              </p>
-            </div>
-
-            <div class="col-md-4">
-              <p>
-                <i class="fas fa-building fa-1x"></i> Пн - Сб,
-                <br>8:00-17:00
-              </p>
-            </div>
-
-            <div class="col-md-4">
-              <p>
-                <i class="fas fa-phone fa-1x"></i> (056)798 24 46
-              </p>
-            </div>
-
-          </div>
-
+        <div class="col-sm-6 wow fadeIn" id="location" data-wow-delay="0.5s">
           <div class="row text-center">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2645.586018368029!2d35.05458261535658!3d48.46447207925084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9d609587ff73538a!2z0JvQuNGG0LXQuSDihJYxMDA!5e0!3m2!1sru!2sua!4v1536873782089"
               width="320" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
-
         </div>
       </div>
 
@@ -794,10 +772,10 @@
           <hr class="bottom-line purple-line">
           <ul class="list-unstyled">
             <li>
-              <a href="#java-course">Java курс</a>
+              <a href="#java-course">Обучение программированию на Java</a>
             </li>
             <li>
-              <a href="#fe-course">Front-End курс</a>
+              <a href="#fe-course">Обучение Web-программированию</a>
             </li>
           </ul>
         </div>
@@ -813,15 +791,7 @@
               <li>
                 <i class="fas fa-envelope"></i> info@brainlink.dp.ua</li>
               <li>
-                <i class="fas fa-phone"></i> + 38 056 798 24 46</li>
-              <li>
-                <i class="fas fa-phone"></i> + 38 063 798 24 46 Life</li>
-              <li>
-                <i class="fas fa-phone"></i> + 38 063 332 45 22 Life</li>
-              <li>
-                <i class="fas fa-phone"></i> + 38 095 500 21 74 Vodafone</li>
-              <li>
-                <i class="fas fa-phone"></i> + 38 068 784 41 18 Киевстар</li>
+                <i class="fas fa-phone"></i> <a href="tel:+380567982446">+ 38 056 798 24 46</a></li>
             </ul>
           </address>
         </div>
@@ -858,8 +828,8 @@
       });
       return false;
     }
-    </script>
-    <script src="./js/script.v2.js"></script>
+  </script>
+  <script src="./js/script.v2.js"></script>
 </body>
 
 </html>

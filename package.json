@@ -1,7 +1,7 @@
 {
-  "name": "bp",
+  "name": "brainlink",
   "version": "1.0.0",
-  "description": "balkonplus",
+  "description": "brainlink",
   "main": "index.js",
   "dependencies": {
     "bootstrap": "^3.3.7"
